@@ -1,0 +1,12 @@
+mysql 入れる https://prog-8.com/docs/mysql-env-win とかを参考に
+ユーザ追加　kt pr1109
+windowsキー　→　システム環境変数
+環境変数の設定　PathにあるMySQLのものをMySQL Server 5.7に書き換え (5.7はバージョン)
+管理者権限でコマンドプロンプトを実行
+net start mysql57 (57はバージョン)
+mysql workbench起動
+DB作成　easyai utf8
+use easyai
+create_table, insertをそれぞれ実行
+python manage.py migrate
+UploaderClass のパスを変える (現在のstaticフォルダまでに変える)
