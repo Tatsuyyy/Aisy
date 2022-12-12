@@ -11,3 +11,4 @@ use easyai
 create_table, insertをそれぞれ実行
 python manage.py migrate
 UploaderClass のパスを変える (現在のstaticフォルダまでに変える)
+python manage.py runserver
