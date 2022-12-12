@@ -1,3 +1,4 @@
+Anacondaからインポートでaisy.ymlをインポートする
 mysql 入れる https://prog-8.com/docs/mysql-env-win とかを参考に
 ユーザ追加　kt pr1109
 windowsキー　→　システム環境変数
